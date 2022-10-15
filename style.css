@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    background: #E5E5E5;
+}
+.fullwidth {
+    display: block;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+nav {
+    margin: 10px 0;
+}
+nav.top-menu ul {
+    text-align: right;
+}
+nav.top-menu ul li {
+    display: inline;
+}
+nav.top-menu ul li a {
+    color: #3C3C3C;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+.half-width {
+    float: left;
+    width: 50%;
+}
+.fullwidth.personal h1 {
+	color: #363958;
+    font-size: 80px;
+}
+.fullwidth.personal h1 + h1{
+	color: #FF8367;
+    font-size: 80px;
+}
+.fullwidth.personal {
+    margin: 100px auto;
+    height: 500px;
+}
+.text-btn {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-image: linear-gradient(180deg, tomato, salmon);
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-top:  15px;
+}
+.fullwidth.personal p {
+    color: #3E3E3E;
+    margin: 15px 0;
+}
+.cv-img {
+    padding-right: 15px;
+}
+.work h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #363958;
+    margin-bottom: 50px;
+}
+.namehighlight{
+	color: #FF8367;
+}
+.singleWorkingProject {
+    width: 25%;
+    padding: 2%;
+    margin: 2%;
+    float: left;
+    background: white;
+}
+.singleWorkingProject h3 {
+	font-size: 23px;
+	color: #363958;
+	margin: 10px 0;
+}
+.singleWorkingProject p{
+    color: #6C6C6C;
+}
+.fullwidth.inquery {
+	padding: 150px 0;
+}
+.inquery {
+    border-radius: 17px;
+    max-width: 700px;
+    clear: both;
+    height: 150px;
+    background: url("images/inquerybg.png");
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.inquery-content {
+	padding: 50px;
+	margin-top: -17px;
+}
+ .inquery-content h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: 9px;
+}
+.inquery h1 {
+    float: left;
+}
+.inquery a {
+    float: right;
+}
+footer {
+    text-align: center;
+}
+footer h2 {
+    color: #696871;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+footer h3 {
+    color: #363958;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: lowercase;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 12px;
+}
+footer img {
+    width: 34px;
+    margin: 0 12px;
+    padding-top: 20px;
+}
